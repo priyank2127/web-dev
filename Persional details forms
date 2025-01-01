@@ -1,0 +1,21 @@
+<html>
+ <head>
+    <title>Personal information</title>
+ </head> 
+ <body>
+    <form>
+        <fieldset>
+        <legend>Personal information:</legend>
+        <label>Full name: <label>
+            <input type="text" id="fname" placeholder="Enter name" ><br><br>
+            <Label>Email:</Label>
+            <input type="text" id="Email"><br> <br>
+            <label>Gender <label><br>
+                <input type="checkbox"id="Gender"value="female">female<br>
+                <input type="checkbox" id="Gender" value="male">male<br><br>
+                <label>birthday<label>
+                    <input type="date" id="birthday" name="birthday"><br><br>
+        </fieldset>
+    </form>
+ </body>  
+</html>
