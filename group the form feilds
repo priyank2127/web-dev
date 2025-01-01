@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>group the forms</title>
+    </head>
+    <body>
+        <h1>Personal detail forms</h1>
+        <forms>
+            <label>Name:</label><br>
+            <input type="text" id="name"><br><br>
+            <label>Email:</label><br>
+            <input type="text" id="Email"><br><br>
+            <label>Contact number[this will be hidden]:<label><br>
+                <input type="password" id="contact"><br><br>
+                <label>Gender</label><br>
+                <input type="checkbox"id="Gender"value="female">female<br>
+                <input type="checkbox" id="Gender" value="male">male<br><br>
+                <label>favorite city</label><br>
+                <input type="checkbox" id="city" value="New Delhi">New Delhi<br>
+                <input type="checkbox" id="city" value="Mumbai">Mumbai<br><br>
+                <input type="submit">
+        </forms>
+    </body>
+</html>
