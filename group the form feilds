@@ -14,9 +14,8 @@
                 <label>Gender</label><br>
                 <input type="checkbox"id="Gender"value="female">female<br>
                 <input type="checkbox" id="Gender" value="male">male<br><br>
-                <label>favorite city</label><br>
-                <input type="checkbox" id="city" value="New Delhi">New Delhi<br>
-                <input type="checkbox" id="city" value="Mumbai">Mumbai<br><br>
+                <label>birthday<label>
+                        <input type="date" id="birthday" name="birthday"><br><br>
                 <input type="submit">
         </forms>
     </body>
