@@ -17,7 +17,7 @@ ul > li{
      font-weight: bold; 
 }
 h1 + p{
-    background-color: black;
+    background-color: whitesmoke;
     padding: 10px;
     border: 5px;
 }
