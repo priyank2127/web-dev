@@ -1,0 +1,115 @@
+<html>
+
+<head>
+
+    
+
+    <title>CSS Positioning Demo</title>
+
+    <style>
+        body {
+
+            font-family: Arial, sans-serif;
+
+            margin: 20px;
+
+            height: 200vh;
+         
+
+        }
+
+        .box {
+
+            width: 120px;
+
+            height: 120px;
+
+            color: white;
+
+            text-align: center;
+
+            line-height: 120px;
+
+            font-weight: bold;
+
+            margin: 10px;
+
+        }
+
+        .static {
+
+            background-color: gray;
+
+            position: static;
+            
+
+        }
+
+        .relative {
+
+            background-color: blue;
+
+            position: relative;
+
+            left: 50px;
+
+            top: 20px;
+
+        }
+
+        .absolute {
+
+            background-color: red;
+
+            position: absolute;
+
+            top: 50px;
+
+            left: 200px;
+
+        }
+
+        .fixed {
+
+            background-color: green;
+
+            position: fixed;
+
+            top: 20px;
+
+            right: 20px;
+
+        }
+
+        .sticky {
+
+            background-color: orange;
+
+            position: sticky;
+
+            top: 0;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h2>CSS Positioning Demo</h2>
+
+    <div class="box static">Static</div>
+
+    <div class="box relative">Relative</div>
+
+    <div class="box absolute">Absolute</div>
+
+    <div class="box fixed">Fixed</div>
+
+    <div class="box sticky">Sticky (Scroll to see)</div>
+
+    <p style="height: 1000px;">Scroll down to test sticky and fixed positioning.</p>
+
+</body>
+
+</html>
